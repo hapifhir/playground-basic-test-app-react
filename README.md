@@ -22,7 +22,9 @@ This project is a skeleton project for querying data from the [HAPI FHIR public 
 
 * [ ] Apply validation to the inputs - the name box cannot contain non-alphabetic characters, and the date field must be a valid date structure (YYYY/MM/DD).
 
-* [ ] Prevent the button search button from multi-clicks wihout using timeouts.
+* [ ] Time the request. Output the time on the footer of the page. Display in the following format `Mon 06 Mar 2017 at 00:00:00`.
+
+* [ ] Prevent the search button from multi-clicks wihout using timeouts.
 
 * [ ] Commit your work.
 
@@ -37,6 +39,20 @@ This project is a skeleton project for querying data from the [HAPI FHIR public 
 - [ ] Update the `Questionnaire` Component to be mobile-friendly.
 
 - [ ] Please include unit tests for your work.
+
+- [ ] Commit your work.
+
+### Advanced Tasks:
+
+- [ ] Refactor `Practitioner` class component into functional component using [React hooks](https://reactjs.org/docs/hooks-intro.html).
+
+- [ ] Add `PractitionerCard` component, display the each practitioner in card format, display data in proper format. ie. Date of birth in (YYYY/MM/DD) format, replace `undefined` value with `N/A`. Add Typechecking with [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html).
+
+- [ ] Display loading state until the request is not complete.
+
+- [ ] Add a delete button in `PractitionerCard`, should ask for confirmation when clicked. Remove the particular `Practioner` when confirmed. Note: No need to make server request.
+
+- [ ] Add [`ErrorBoundary`](https://reactjs.org/docs/error-boundaries.html) component, use this component to make sure it catches the javascript errors thrown from `Practitioner` component.
 
 - [ ] Commit your work.
 

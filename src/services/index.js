@@ -7,3 +7,7 @@ const axios = _axios.create({
 export const getPatients = () => {
   return axios.get("/Patient");
 };
+
+export const getPractitioners = () => {
+  return axios.get("/Practitioner");
+};
