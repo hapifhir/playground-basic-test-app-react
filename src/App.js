@@ -10,7 +10,6 @@ class App extends Component {
     });
   }
   render() {
-/*    return <p>Check the console!</p>; */
     return (
       <div className="App">
         <header className="App-header">
